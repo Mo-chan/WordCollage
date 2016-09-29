@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,261 +16,196 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn to Play Guitar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVB-tP-eb2">
-                                <rect key="frame" x="291" y="61" width="187" height="29"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.5607843137254902" green="0.84705882352941175" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.49917459487915039" green="0.83010244369506836" blue="0.2693105936050415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tR-Hu-BVu">
-                                <rect key="frame" x="65" y="68" width="133" height="70"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="51"/>
-                                <color key="textColor" red="0.30980392156862746" green="0.67843137254901964" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.25531300902366638" green="0.60724037885665894" blue="0.95436573028564453" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="World Peace" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1h6-Vp-V8x">
-                                <rect key="frame" x="255" y="101" width="175" height="41"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
-                                <color key="textColor" red="0.2666666667" green="0.84705882349999995" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.23652341961860657" green="0.83019137382507324" blue="0.42718294262886047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Np-u3-8pG">
-                                <rect key="frame" x="213" y="131" width="174" height="70"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="51"/>
-                                <color key="textColor" red="0.027450980392156862" green="0.74117647058823533" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.095090731978416443" green="0.68991971015930176" blue="0.81529009342193604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Become a Great Artist" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ske-bh-FFl">
-                                <rect key="frame" x="32" y="201" width="211" height="29"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="ucB-Xc-83L"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.56078431370000004" green="0.84705882349999995" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.49917459487915039" green="0.83010244369506836" blue="0.2693105936050415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="College" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXE-q4-2Y5">
-                                <rect key="frame" x="100" y="152" width="76" height="29"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.2666666667" green="0.84705882349999995" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.23652341961860657" green="0.83019137382507324" blue="0.42718294262886047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn to Cook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dnm-an-hZg">
-                                <rect key="frame" x="196" y="501" width="194" height="41"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="SIv-ma-aC8"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
-                                <color key="textColor" red="0.18823529410000001" green="0.84705882349999995" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.18207919597625732" green="0.8254847526550293" blue="0.6376379132270813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Run for President" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZv-O9-UNE">
-                                <rect key="frame" x="361" y="197" width="167" height="29"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.2666666667" green="0.84705882349999995" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.23652341961860657" green="0.83019137382507324" blue="0.42718294262886047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a Cool Job" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnU-x1-lkb">
-                                <rect key="frame" x="423" y="139" width="152" height="29"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.60784313729999995" green="0.69803921570000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.53994393348693848" green="0.6276286244392395" blue="0.93512946367263794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn to Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34n-If-zU8">
-                                <rect key="frame" x="171" y="221" width="324" height="70"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="51"/>
-                                <color key="textColor" red="0.18823529410000001" green="0.84705882349999995" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.18207919597625732" green="0.8254847526550293" blue="0.6376379132270813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fall in Love" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7d-We-fVr">
-                                <rect key="frame" x="16" y="270" width="212" height="57"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="41"/>
-                                <color key="textColor" red="0.027450980390000001" green="0.74117647060000003" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help People" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNR-dJ-f0a">
-                                <rect key="frame" x="303" y="291" width="168" height="41"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
-                                <color key="textColor" red="0.60784313729999995" green="0.69803921570000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.095090731978416443" green="0.68991971015930176" blue="0.81529009342193604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start a Band" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjk-pL-fiN">
-                                <rect key="frame" x="72" y="322" width="165" height="41"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
-                                <color key="textColor" red="0.2666666667" green="0.84705882349999995" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.23652341961860657" green="0.83019137382507324" blue="0.42718294262886047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get in Shape" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zp7-XJ-US5">
-                                <rect key="frame" x="369" y="328" width="179" height="41"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
-                                <color key="textColor" red="0.30980392159999998" green="0.67843137249999996" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.25531300902366638" green="0.60724037885665894" blue="0.95436573028564453" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K60-1F-eGz">
-                                <rect key="frame" x="115" y="357" width="242" height="48"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="35"/>
-                                <color key="textColor" red="0.56078431370000004" green="0.84705882349999995" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.49917459487915039" green="0.83010244369506836" blue="0.2693105936050415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Win the Game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNd-ho-BKt">
-                                <rect key="frame" x="427" y="377" width="138" height="29"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.2666666667" green="0.84705882349999995" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.23652341961860657" green="0.83019137382507324" blue="0.42718294262886047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make a Movie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCY-eX-AfJ">
-                                <rect key="frame" x="72" y="413" width="137" height="29"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.30980392159999998" green="0.67843137249999996" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.25531300902366638" green="0.60724037885665894" blue="0.95436573028564453" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start a Business" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qz-Jp-8bn">
-                                <rect key="frame" x="50" y="464" width="212" height="41"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
-                                <color key="textColor" red="0.027450980390000001" green="0.74117647060000003" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.095090731978416443" green="0.68991971015930176" blue="0.81529009342193604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Become an Architect" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Kn-qB-i0E">
-                                <rect key="frame" x="357" y="477" width="201" height="29"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="21"/>
-                                <color key="textColor" red="0.56078431370000004" green="0.84705882349999995" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.49917459487915039" green="0.83010244369506836" blue="0.2693105936050415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel to France" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAj-13-3Qq">
-                                <rect key="frame" x="142" y="20" width="253" height="48"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="35"/>
-                                <color key="textColor" red="0.60784313725490191" green="0.69803921568627447" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.53994393348693848" green="0.6276286244392395" blue="0.93512946367263794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go Camping" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPU-gB-7PY">
-                                <rect key="frame" x="229" y="403" width="355" height="84"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="61"/>
-                                <color key="textColor" red="0.60784313729999995" green="0.69803921570000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.53994393348693848" green="0.6276286244392395" blue="0.93512946367263794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPa-q1-gtJ">
-                                <rect key="frame" x="281" y="562" width="39" height="30"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="39" id="oLT-Hx-VhZ"/>
-                                </constraints>
                                 <state key="normal" title="Black">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="changeBackgroundColorToBlack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Khb-iD-B41"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lrv-Oh-P41">
-                                <rect key="frame" x="152" y="562" width="40" height="30"/>
-                                <animations/>
                                 <state key="normal" title="White">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="changeBackgroundColorToWhite:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cdC-rJ-XUo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwm-vA-q4z">
-                                <rect key="frame" x="403" y="562" width="60" height="30"/>
-                                <animations/>
                                 <state key="normal" title="Magenta">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="changeBackgroundColorToMagenta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="X2i-8e-K6j"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help People" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNR-dJ-f0a">
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
+                                <color key="textColor" red="0.53994393348693848" green="0.6276286244392395" blue="0.93512946367263794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="34n-If-zU8" firstAttribute="top" secondItem="4Np-u3-8pG" secondAttribute="bottom" constant="20" id="08s-pE-BIf"/>
-                            <constraint firstItem="1h6-Vp-V8x" firstAttribute="leading" secondItem="6tR-Hu-BVu" secondAttribute="trailing" constant="57" id="24S-Xt-XLu"/>
-                            <constraint firstItem="nCY-eX-AfJ" firstAttribute="top" secondItem="K60-1F-eGz" secondAttribute="bottom" constant="8" symbolic="YES" id="3E2-Wh-IGS"/>
-                            <constraint firstItem="nXE-q4-2Y5" firstAttribute="top" secondItem="6tR-Hu-BVu" secondAttribute="bottom" constant="14" id="4Nj-BO-jsL"/>
-                            <constraint firstItem="8qz-Jp-8bn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="30" id="4ua-m6-RM0"/>
-                            <constraint firstItem="WPU-gB-7PY" firstAttribute="top" secondItem="Zp7-XJ-US5" secondAttribute="bottom" constant="34" id="6uV-4V-YR9"/>
-                            <constraint firstItem="Sjk-pL-fiN" firstAttribute="top" secondItem="34n-If-zU8" secondAttribute="bottom" constant="31" id="6zt-V7-lzh"/>
-                            <constraint firstItem="mNd-ho-BKt" firstAttribute="leading" secondItem="K60-1F-eGz" secondAttribute="trailing" constant="70" id="7eI-Ed-KYW"/>
-                            <constraint firstItem="4Np-u3-8pG" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="9zB-K7-I2T"/>
-                            <constraint firstItem="A7d-We-fVr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-4" id="AV6-Q2-yJ9"/>
-                            <constraint firstItem="K60-1F-eGz" firstAttribute="top" secondItem="A7d-We-fVr" secondAttribute="bottom" constant="30" id="AeT-p1-dML"/>
-                            <constraint firstItem="4Np-u3-8pG" firstAttribute="leading" secondItem="nXE-q4-2Y5" secondAttribute="trailing" constant="37" id="B3X-l1-Nu0"/>
-                            <constraint firstItem="ske-bh-FFl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="12" id="BXe-cT-n3W"/>
-                            <constraint firstItem="K60-1F-eGz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="95" id="Bct-bO-FCG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Zp7-XJ-US5" secondAttribute="trailing" constant="32" id="Bsb-Fi-UVz"/>
-                            <constraint firstItem="Lrv-Oh-P41" firstAttribute="baseline" secondItem="qPa-q1-gtJ" secondAttribute="baseline" id="CfB-d3-iIW"/>
-                            <constraint firstItem="mNd-ho-BKt" firstAttribute="top" secondItem="Zp7-XJ-US5" secondAttribute="bottom" constant="8" symbolic="YES" id="Cfy-K6-xfN"/>
-                            <constraint firstItem="K60-1F-eGz" firstAttribute="top" secondItem="JNR-dJ-f0a" secondAttribute="bottom" constant="25" id="DNb-EM-NU4"/>
-                            <constraint firstItem="qPa-q1-gtJ" firstAttribute="top" secondItem="Dnm-an-hZg" secondAttribute="bottom" constant="20" id="DtZ-rL-juD"/>
-                            <constraint firstItem="Dnm-an-hZg" firstAttribute="top" secondItem="WPU-gB-7PY" secondAttribute="bottom" constant="14" id="FLj-76-jFh"/>
-                            <constraint firstItem="bAj-13-3Qq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="142" id="Fee-zd-2zF"/>
-                            <constraint firstItem="WPU-gB-7PY" firstAttribute="leading" secondItem="nCY-eX-AfJ" secondAttribute="trailing" constant="20" id="GHX-PN-vFO"/>
-                            <constraint firstItem="dZv-O9-UNE" firstAttribute="top" secondItem="lnU-x1-lkb" secondAttribute="bottom" constant="29" id="JD3-Ji-BRK"/>
-                            <constraint firstItem="JNR-dJ-f0a" firstAttribute="leading" secondItem="Sjk-pL-fiN" secondAttribute="trailing" constant="66" id="JFu-PA-2fp"/>
-                            <constraint firstItem="WPU-gB-7PY" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="145" id="M2S-Ix-6MW"/>
-                            <constraint firstItem="bAj-13-3Qq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="M2q-RF-q3k"/>
-                            <constraint firstItem="Sjk-pL-fiN" firstAttribute="leading" secondItem="nCY-eX-AfJ" secondAttribute="leading" id="MXh-DC-cpC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mNd-ho-BKt" secondAttribute="trailing" constant="15" id="Ob4-bi-uOp"/>
-                            <constraint firstItem="Vwm-vA-q4z" firstAttribute="top" secondItem="qPa-q1-gtJ" secondAttribute="top" id="Oip-Oe-0xp"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dZv-O9-UNE" secondAttribute="trailing" constant="52" id="QFk-qy-296"/>
-                            <constraint firstItem="nXE-q4-2Y5" firstAttribute="centerX" secondItem="ske-bh-FFl" secondAttribute="centerX" id="R9F-hv-VYh"/>
-                            <constraint firstItem="1Kn-qB-i0E" firstAttribute="top" secondItem="mNd-ho-BKt" secondAttribute="bottom" constant="71" id="TeY-FL-QyM"/>
-                            <constraint firstItem="Sjk-pL-fiN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="52" id="UEQ-X4-bPL"/>
-                            <constraint firstItem="8qz-Jp-8bn" firstAttribute="top" secondItem="nCY-eX-AfJ" secondAttribute="bottom" constant="22" id="WbC-kT-UwZ"/>
-                            <constraint firstItem="Vwm-vA-q4z" firstAttribute="leading" secondItem="qPa-q1-gtJ" secondAttribute="trailing" constant="83" id="XCA-mS-ISw"/>
-                            <constraint firstItem="Zp7-XJ-US5" firstAttribute="top" secondItem="34n-If-zU8" secondAttribute="bottom" constant="37" id="XNo-NW-dHH"/>
-                            <constraint firstItem="Zp7-XJ-US5" firstAttribute="leading" secondItem="K60-1F-eGz" secondAttribute="trailing" constant="12" id="Xzy-yZ-3GM"/>
-                            <constraint firstItem="JNR-dJ-f0a" firstAttribute="top" secondItem="dZv-O9-UNE" secondAttribute="bottom" constant="65" id="dHz-My-cdr"/>
-                            <constraint firstItem="A7d-We-fVr" firstAttribute="top" secondItem="ske-bh-FFl" secondAttribute="bottom" constant="40" id="dUn-2a-3lz"/>
-                            <constraint firstItem="nXE-q4-2Y5" firstAttribute="centerY" secondItem="4Np-u3-8pG" secondAttribute="centerY" id="gXt-gg-eca"/>
-                            <constraint firstItem="WPU-gB-7PY" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="106.5" id="hvr-NC-xKC"/>
-                            <constraint firstItem="lnU-x1-lkb" firstAttribute="top" secondItem="tVB-tP-eb2" secondAttribute="bottom" constant="49" id="jSk-mM-Eru"/>
-                            <constraint firstItem="4Np-u3-8pG" firstAttribute="leading" secondItem="6tR-Hu-BVu" secondAttribute="trailing" constant="15" id="jZe-P5-AbH"/>
-                            <constraint firstItem="1Kn-qB-i0E" firstAttribute="leading" secondItem="8qz-Jp-8bn" secondAttribute="trailing" constant="95" id="kQn-gU-7Fw"/>
-                            <constraint firstItem="ske-bh-FFl" firstAttribute="top" secondItem="nXE-q4-2Y5" secondAttribute="bottom" constant="20" id="kfX-jf-fhg"/>
-                            <constraint firstItem="1h6-Vp-V8x" firstAttribute="top" secondItem="tVB-tP-eb2" secondAttribute="bottom" constant="11" id="lZ3-W6-gzA"/>
-                            <constraint firstItem="Dnm-an-hZg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="196" id="n8y-c1-s4p"/>
-                            <constraint firstItem="JNR-dJ-f0a" firstAttribute="leading" secondItem="A7d-We-fVr" secondAttribute="trailing" constant="75" id="oQY-Aj-ISu"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="34n-If-zU8" secondAttribute="trailing" constant="85" id="oT9-Ng-tX4"/>
-                            <constraint firstItem="tVB-tP-eb2" firstAttribute="leading" secondItem="6tR-Hu-BVu" secondAttribute="trailing" constant="93" id="p9E-Mm-pCz"/>
-                            <constraint firstItem="qPa-q1-gtJ" firstAttribute="leading" secondItem="Lrv-Oh-P41" secondAttribute="trailing" constant="89" id="pN6-A0-1wz"/>
-                            <constraint firstItem="qPa-q1-gtJ" firstAttribute="centerX" secondItem="4Np-u3-8pG" secondAttribute="centerX" id="uQe-iZ-PM1"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Lrv-Oh-P41" secondAttribute="bottom" constant="8" symbolic="YES" id="vSk-d1-qxJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lnU-x1-lkb" secondAttribute="trailing" constant="5" id="woA-Do-MyW"/>
-                            <constraint firstItem="lnU-x1-lkb" firstAttribute="leading" secondItem="4Np-u3-8pG" secondAttribute="trailing" constant="36" id="xZc-Ys-adh"/>
-                            <constraint firstItem="Vwm-vA-q4z" firstAttribute="top" secondItem="1Kn-qB-i0E" secondAttribute="bottom" constant="56" id="yOs-dN-z9Q"/>
-                            <constraint firstItem="4Np-u3-8pG" firstAttribute="top" secondItem="tVB-tP-eb2" secondAttribute="bottom" constant="41" id="zBc-gO-cQi"/>
+                            <constraint firstItem="dZv-O9-UNE" firstAttribute="leading" secondItem="ske-bh-FFl" secondAttribute="trailing" constant="8" symbolic="YES" id="35U-cR-0Pz"/>
+                            <constraint firstItem="Vwm-vA-q4z" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="402" id="3OP-Gh-WEn"/>
+                            <constraint firstItem="6tR-Hu-BVu" firstAttribute="top" secondItem="bAj-13-3Qq" secondAttribute="bottom" constant="4" id="5gV-tm-XEF"/>
+                            <constraint firstItem="1Kn-qB-i0E" firstAttribute="top" secondItem="qPa-q1-gtJ" secondAttribute="bottom" constant="8" symbolic="YES" id="5lA-g8-Gjs"/>
+                            <constraint firstItem="Zp7-XJ-US5" firstAttribute="leading" secondItem="K60-1F-eGz" secondAttribute="trailing" constant="1" id="64Z-Ao-1Gj"/>
+                            <constraint firstItem="6tR-Hu-BVu" firstAttribute="bottom" secondItem="1h6-Vp-V8x" secondAttribute="bottom" id="6mD-d9-lGU"/>
+                            <constraint firstItem="6tR-Hu-BVu" firstAttribute="leading" secondItem="nXE-q4-2Y5" secondAttribute="leading" id="8im-Fy-kkG"/>
+                            <constraint firstItem="WPU-gB-7PY" firstAttribute="top" secondItem="Zp7-XJ-US5" secondAttribute="bottom" constant="8" symbolic="YES" id="AHD-mp-MaH"/>
+                            <constraint firstItem="4Np-u3-8pG" firstAttribute="leading" secondItem="1Kn-qB-i0E" secondAttribute="leading" id="Abb-o7-3Nh"/>
+                            <constraint firstItem="bAj-13-3Qq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="C00-gB-08Z"/>
+                            <constraint firstItem="Lrv-Oh-P41" firstAttribute="baseline" secondItem="qPa-q1-gtJ" secondAttribute="baseline" id="Eej-u0-ija"/>
+                            <constraint firstItem="dZv-O9-UNE" firstAttribute="top" secondItem="1h6-Vp-V8x" secondAttribute="bottom" constant="55" id="Ege-Pr-HP8"/>
+                            <constraint firstItem="bAj-13-3Qq" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="IlB-4e-eST"/>
+                            <constraint firstItem="K60-1F-eGz" firstAttribute="top" secondItem="JNR-dJ-f0a" secondAttribute="bottom" constant="8" symbolic="YES" id="JFW-3E-n66"/>
+                            <constraint firstItem="6tR-Hu-BVu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="M1I-kG-rPH"/>
+                            <constraint firstItem="A7d-We-fVr" firstAttribute="top" secondItem="ske-bh-FFl" secondAttribute="bottom" constant="36" id="MK0-V6-6pX"/>
+                            <constraint firstItem="ske-bh-FFl" firstAttribute="leading" secondItem="K60-1F-eGz" secondAttribute="leading" id="Mbz-Es-VWD"/>
+                            <constraint firstItem="mNd-ho-BKt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="427" id="Mfi-kq-fSs"/>
+                            <constraint firstItem="nXE-q4-2Y5" firstAttribute="top" secondItem="6tR-Hu-BVu" secondAttribute="bottom" constant="19" id="Oab-gL-wrN"/>
+                            <constraint firstItem="K60-1F-eGz" firstAttribute="bottom" secondItem="mNd-ho-BKt" secondAttribute="bottom" id="SMe-6u-rnw"/>
+                            <constraint firstItem="JNR-dJ-f0a" firstAttribute="top" secondItem="34n-If-zU8" secondAttribute="bottom" constant="15" id="Tz8-Mh-f4r"/>
+                            <constraint firstItem="JNR-dJ-f0a" firstAttribute="leading" secondItem="Sjk-pL-fiN" secondAttribute="trailing" constant="21" id="WRt-ch-gJB"/>
+                            <constraint firstItem="WPU-gB-7PY" firstAttribute="leading" secondItem="nCY-eX-AfJ" secondAttribute="trailing" constant="8" symbolic="YES" id="Z6U-DU-uOi"/>
+                            <constraint firstItem="6tR-Hu-BVu" firstAttribute="centerX" secondItem="nCY-eX-AfJ" secondAttribute="centerX" id="aoC-2j-Klm"/>
+                            <constraint firstItem="A7d-We-fVr" firstAttribute="centerX" secondItem="Lrv-Oh-P41" secondAttribute="centerX" id="b6Y-dH-YX3"/>
+                            <constraint firstItem="Lrv-Oh-P41" firstAttribute="top" secondItem="Dnm-an-hZg" secondAttribute="bottom" constant="14" id="bIw-Vr-qu8"/>
+                            <constraint firstItem="nXE-q4-2Y5" firstAttribute="leading" secondItem="A7d-We-fVr" secondAttribute="leading" id="dx1-9l-LLh"/>
+                            <constraint firstItem="1h6-Vp-V8x" firstAttribute="leading" secondItem="6tR-Hu-BVu" secondAttribute="trailing" constant="33" id="dxR-ds-uZB"/>
+                            <constraint firstItem="dZv-O9-UNE" firstAttribute="leading" secondItem="qPa-q1-gtJ" secondAttribute="leading" id="e5J-Pv-LSt"/>
+                            <constraint firstItem="tVB-tP-eb2" firstAttribute="leading" secondItem="6tR-Hu-BVu" secondAttribute="trailing" constant="3" id="fj0-W9-0vY"/>
+                            <constraint firstItem="Sjk-pL-fiN" firstAttribute="top" secondItem="34n-If-zU8" secondAttribute="bottom" constant="29" id="gWi-wd-Vt5"/>
+                            <constraint firstItem="1h6-Vp-V8x" firstAttribute="top" secondItem="tVB-tP-eb2" secondAttribute="bottom" constant="8" symbolic="YES" id="hVR-JA-0c1"/>
+                            <constraint firstItem="Dnm-an-hZg" firstAttribute="trailing" secondItem="qPa-q1-gtJ" secondAttribute="trailing" id="hWl-bb-DKA"/>
+                            <constraint firstItem="K60-1F-eGz" firstAttribute="leading" secondItem="8qz-Jp-8bn" secondAttribute="leading" id="hYU-xF-r1X"/>
+                            <constraint firstItem="34n-If-zU8" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="het-tS-vlJ"/>
+                            <constraint firstItem="nCY-eX-AfJ" firstAttribute="baseline" secondItem="WPU-gB-7PY" secondAttribute="baseline" id="klj-Qn-7Wc"/>
+                            <constraint firstItem="K60-1F-eGz" firstAttribute="top" secondItem="A7d-We-fVr" secondAttribute="bottom" constant="31" id="msL-io-9Ap"/>
+                            <constraint firstItem="Dnm-an-hZg" firstAttribute="top" secondItem="WPU-gB-7PY" secondAttribute="bottom" constant="29" id="ppQ-UP-3JB"/>
+                            <constraint firstItem="8qz-Jp-8bn" firstAttribute="top" secondItem="nCY-eX-AfJ" secondAttribute="bottom" constant="8" symbolic="YES" id="qRi-az-YK1"/>
+                            <constraint firstItem="nCY-eX-AfJ" firstAttribute="top" secondItem="K60-1F-eGz" secondAttribute="bottom" constant="28" id="qaj-u5-g4x"/>
+                            <constraint firstItem="Dnm-an-hZg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="65" id="rc7-qp-LLP"/>
+                            <constraint firstItem="34n-If-zU8" firstAttribute="top" secondItem="4Np-u3-8pG" secondAttribute="bottom" constant="15" id="sa5-EH-Yxu"/>
+                            <constraint firstItem="qPa-q1-gtJ" firstAttribute="baseline" secondItem="Vwm-vA-q4z" secondAttribute="baseline" id="u0f-5Y-oiP"/>
+                            <constraint firstItem="Sjk-pL-fiN" firstAttribute="leading" secondItem="nCY-eX-AfJ" secondAttribute="leading" id="uuC-rU-cPM"/>
+                            <constraint firstItem="ske-bh-FFl" firstAttribute="top" secondItem="nXE-q4-2Y5" secondAttribute="bottom" constant="15" id="v14-o1-VTC"/>
+                            <constraint firstItem="ske-bh-FFl" firstAttribute="trailing" secondItem="A7d-We-fVr" secondAttribute="trailing" id="wUv-gF-wp8"/>
+                            <constraint firstItem="4Np-u3-8pG" firstAttribute="top" secondItem="lnU-x1-lkb" secondAttribute="top" id="wec-Is-uFW"/>
+                            <constraint firstItem="lnU-x1-lkb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="423" id="x1j-H5-ieU"/>
+                            <constraint firstItem="tVB-tP-eb2" firstAttribute="centerX" secondItem="1Kn-qB-i0E" secondAttribute="centerX" id="yaz-65-yss"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="439" y="147"/>
         </scene>
     </scenes>
 </document>
